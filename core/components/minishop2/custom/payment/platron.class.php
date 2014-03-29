@@ -81,7 +81,7 @@ class Platron extends msPaymentHandler implements msPaymentInterface {
             if (isset($profile)) {
                 $fieldMap = array(
                     'user_email' => 'email'
-                    ,'contact_user_email' => 'email'
+                    ,'user_contact_email' => 'email'
                     ,'user_phone' => 'phone'
                 );
                 foreach($fieldMap as $platronField => $modxField) {
